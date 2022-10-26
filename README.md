@@ -1,1 +1,2 @@
-javac -cp ../program.jar:. exo_1.java
+cd [path]
+javac -cp ../program.jar:. [file.java] && java -cp ../program.jar:. [program]
