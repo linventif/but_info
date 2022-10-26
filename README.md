@@ -1,6 +1,6 @@
 ### Join my Discord
-[https://linventif.fr[discord]
-[discord]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[https://linventif.fr][discord]
+[discord]: https://i.imgur.com/UNSqmvK.png
 
 ### License
 
