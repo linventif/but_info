@@ -1,3 +1,5 @@
+### License
+
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 This work is licensed under a
@@ -9,6 +11,7 @@ This work is licensed under a
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
+### Informations
 
 cd [path]
 javac -cp ../program.jar:. [file.java] && java -cp ../program.jar:. [program]
