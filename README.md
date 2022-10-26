@@ -1,5 +1,4 @@
-### Join my Discord
-![https://linventif.fr](https://i.imgur.com/UNSqmvK.png "Discord")
+![https://linventif.fr](https://i.imgur.com/UNSqmvK.png "https://linventif.fr")
 
 ### License
 
