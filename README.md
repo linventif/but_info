@@ -1,6 +1,6 @@
 [![https://linventif.fr](https://i.imgur.com/UNSqmvK.png)](https://linventif.fr/discord)
 
-### License
+## License
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
