@@ -21,15 +21,16 @@ class jdlv extends Program{
         return false;
     }
     int nbneighbours(int[][] tbl, int x, int y){
-        x = -1 + x;
-        y = -1 + y;
         int nbr = 0;
-        for (int i = 0; i < 3; i++){
-            for (int j = 0; j < 3; j++){
-                if ((intbl(tbl[0], i) && intbl(tbl[1], j)) && tbl[x+i][y+j] == 1){
+        for (int i = 0; i < length(tbl, 2); i++){
+            for (int j = 0; j < length(tbl, 1); j++){
+                if (tbl[i][j] == 1){
                     nbr++;
                 }
             }
+        }
+        if (tbl[x][y] == 1) {
+            nbr--;
         }
         return nbr;
     }
@@ -57,7 +58,7 @@ class jdlv extends Program{
                 }
             }
             space(2);
-        }
+        }/*
         boolean valid = false;
         while (!valid){
             space(1);
@@ -65,6 +66,11 @@ class jdlv extends Program{
             int w = question("Position ( width ) ");
             space(1);
             println("There is " + nbneighbours(tbl, h, w) + " neighbours");
-        }
+        }*/
+
+        
+        println(" ");
+        println(" -> " + nbneighbours(tbl, 1, 1));
+        println(" ");
     }
 }
